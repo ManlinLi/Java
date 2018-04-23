@@ -12,6 +12,6 @@ public class Chapter2Questions {
         System.out.println(++a + b++ * c);
 
 
-        //611
+        //11+20*30=611
     }
 }
