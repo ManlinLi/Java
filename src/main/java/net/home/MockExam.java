@@ -5,8 +5,9 @@ public class MockExam {
         int x = 0, y=10;
        try{
            y /=x;
+           System.out.print("/ by 0");
        }
-       System.out.print("/ by 0");
+
        catch(Exception e){  //error
          System.out.print("error");
        }
