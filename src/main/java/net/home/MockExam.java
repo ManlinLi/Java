@@ -1,17 +1,11 @@
 package net.home;
 
 public class MockExam {
+    static int x = 10;
     public static void main(String[] args) {
-        new MockExam().pass();
-        }
-    public void pass(){
-        int a =10 , b=20;
-        print(a) ;
-     }
-
-    public void print(int a){
-        int c = b/a;  //error
-        System.out.print(c);
+        for(int x=0;x<5;x++){
+         }
+        System.out.print(x);
         }
     }
 
