@@ -1,12 +1,20 @@
 package net.home;
 
 public class MockExam {
-    static int x = 10;
-    public static void main(String[] args) {
-        String s = "Java";
-        s.concat(" SE 6");
-        s.replace('6','7');
-        System.out.print(s);
-        }
+    int num = 100;
+
+    public void calc(int num) {
+        this.num = num * 10;
     }
+
+    public void printNum() {
+        System.out.println(num);
+    }
+
+    public static void main(String[] args) {
+        Calculator obj = new Calculator();
+        obj.calc(2);
+        obj.printNum();
+    }
+}
 
