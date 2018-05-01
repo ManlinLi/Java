@@ -2,10 +2,16 @@ package net.home;
 
 public class MockExam {
     public static void main(String[] args) {
-        int a[][] = new int[3][];
-        a[1] = new int[]{1,2,3};
-        a[2] = new int[]{4,5};
-        System.out.print(a[1][1]);
-       }
+        new MockExam().pass();
+        }
+    public void pass(){
+        int a =10 , b=20;
+        print(a) ;
+     }
+
+    public void print(int a){
+        int c = b/a;  //error
+        System.out.print(c);
+        }
     }
 
